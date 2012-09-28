@@ -14,12 +14,6 @@ app.configure () ->
         config: siteConfig
     }
     app.use express.bodyParser()
-    app.use express.cookieParser(siteConfig.sessionSecret)
-    app.use express.cookieSession({
-        cookie: {
-            maxAge: 1000 * 86400 * 365 * 5 # 5 years
-        }
-    })
 
     app.use express.static "#{__dirname}/public"
 
