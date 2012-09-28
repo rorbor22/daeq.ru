@@ -10,7 +10,8 @@
      "dependencies": {
         "coffee-script" : "1.3.3",
         "express": "3.x",
-        "uinexpress": "*"
+        "uinexpress": "*",
+        "underscore": "1.4.0"
      },
      "main": "app.coffee"
 }
