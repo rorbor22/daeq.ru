@@ -1,0 +1,21 @@
+--- yaml
+layout: 'default'
+dynamic: true
+---
+
+<div class="well">
+    <ul class="breadcrumb">
+      <li><a href="/">Начало</a> <span class="divider">/</span></li>
+      <li><a href="/articles">Статьи</a> <span class="divider">/</span></li>
+      <li class="active"><%=@document.title%></li>
+    </ul>
+
+    <h3>Все статьи</h3>
+    <ul class="unstyled">
+    <% for document in @getCollection('articles').models: %>            
+        <%date = document.get("date")%>
+        <li><span class="label"><%="#{date.getDate()}.#{date.getMonth()+1}.#{date.getFullYear()}"%></span>
+        <a href="<%= document.get("url") %>"><%= document.get("title") %></a></li>
+    <% end %>
+    </ul>
+</div>

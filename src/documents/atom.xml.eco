@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title><%= @site.title %></title>
+	<link href="<%= @config.url %>/atom.xml" rel="self"/>
+	<link href="<%= @config.url %>"/>
+	<updated><%= @site.date.toISOString() %></updated>
+	<id><%= @config.url %></id>
+
+	<% for document in @getCollection('articles').toJSON(): %>
+		<entry>
+			<title><%= document.title %></title>
+			<link href="<%= @config.url+'/'+document.url %>"/>
+			<updated><%= document.date.toISOString() %></updated>
+			<id><%= @config.url+'/'+document.url %></id>
+			<content type="html"><%= document.contentRendered %></content>
+		</entry>
+	<% end %>
+</feed>

@@ -1,2 +1,4 @@
 node_modules/*
+_out/*
+.nodemonignore
 .DS_Store

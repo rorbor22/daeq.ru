@@ -9,8 +9,10 @@
      },
      "dependencies": {
         "coffee-script" : "1.3.3",
+        "docpad": "6.11.1",
+        "docpad-plugin-eco": "1.1.0",
+        "docpad-plugin-cleanurls": "2.2.5",
         "express": "3.x",
-        "uinexpress": "*",
         "underscore": "1.4.0"
      },
      "main": "app.coffee"

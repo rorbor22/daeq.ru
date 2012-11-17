@@ -1,3 +1,8 @@
+--- yaml
+layout: 'default'
+dynamic: true
+---
+
 <div class="row">
 <div class="span4">
     <div class="well">
@@ -44,6 +49,18 @@
     <a href="https://twitter.com/daeq" class="twitter-follow-button" data-show-count="false" data-lang="ru" data-size="large">  Читать @daeq</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </p>
+    <!--
+    <h3>Последние статьи</h3>
+    <p>
+        <ul class="unstyled">
+        <% for document in @getCollection('articles').models[0..5]: %>            
+            <%date = document.get("date")%>
+            <li><span class="label"><%="#{date.getDate()}.#{date.getMonth()+1}.#{date.getFullYear()}"%></span>
+            <a href="<%= document.get("url") %>"><%= document.get("title") %></a></li>
+        <% end %>
+        </ul>
+    </p>
+    -->
   </div>
 </div>
 </div>

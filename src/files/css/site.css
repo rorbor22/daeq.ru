@@ -50,3 +50,7 @@ body {
 .works .thumbnails > li {
     margin-left: 10px;
 }
+
+#hypercomments_widget {
+    margin-left: -4px;
+}
