@@ -21,7 +21,7 @@ layout: default
 		<a class="addthis_button_preferred_4"></a>
 		<a class="addthis_button_compact"></a>
 		<a class="addthis_counter addthis_bubble_style"></a>
-		<a class="btn pull-right" href="https://github.com/daeq/daeq.ru/blob/master/<%-@document.relativePath%>"><i class="icon-github"></i> Предложить изменения к статье</a>
+		<a class="btn pull-right" href="https://github.com/daeq/daeq.ru/blob/master/src/documents/<%-@document.relativePath%>"><i class="icon-github"></i> Предложить изменения к статье</a>
 	</div>
 	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50a77afc7dfcccd3"></script>
