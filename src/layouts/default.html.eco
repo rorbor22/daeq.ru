@@ -5,6 +5,7 @@
             <title><%= @getTitle() %></title>
             <meta name="description" content="<%= @getDescription() %>" />
             <meta name="viewport" content="width=1024">
+            <link rel="alternate" type="application/atom+xml" title="Статьи" href="/atom.xml" />
             <%- @getBlock('styles').add(["/css/bootstrap.css","/css/site.css","/css/font-awesome.css"]).toHTML() %>
             <link href='http://fonts.googleapis.com/css?family=Scada&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
             

@@ -12,7 +12,7 @@
 			<link href="<%= @config.url+'/'+document.url %>"/>
 			<updated><%= document.date.toISOString() %></updated>
 			<id><%= @config.url+'/'+document.url %></id>
-			<content type="html"><%= document.contentRendered %></content>
+			<content type="html"><%= document.contentRenderedWithoutLayouts %></content>
 		</entry>
 	<% end %>
 </feed>

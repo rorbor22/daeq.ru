@@ -8,6 +8,7 @@ docpadInstanceConfiguration = {
         site:
             title: "Сайт Даниила Братченко"
         config: siteConfig
+        _: require 'underscore'
         getTitle: ->
             if @document.title 
                 return "#{@document.title} [#{@site.title}]"
