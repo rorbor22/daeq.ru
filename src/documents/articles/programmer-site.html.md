@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 'Сайт для программиста [на Node.js]. Просто. Стильно. Бесплатно.'
+date: '2012-11-14'
 ---
 
 <img src="http://daeq.ru/img/articles/programmer-site/logo.png" align="right"/>

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 'Сайт для программиста. Часть 2. Публикация.'
+date: '2012-11-25'
 ---
 
 <img src="http://daeq.ru/img/articles/programmer-site/logo.png" align="right"/>
