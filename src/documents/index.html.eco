@@ -43,15 +43,12 @@ dynamic: true
 
     <p></p>
     <p>
-        Все новости – через твиттер. Новые статьи - через RSS.
+        Все новости – через твиттер.
     </p>
     <div class="row">
         <div class="span2">
         <a href="https://twitter.com/daeq" class="twitter-follow-button" data-show-count="false" data-lang="ru" data-size="large">  Читать @daeq</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-        <div class="span3">
-            <a href="http://feeds.feedburner.com/daeq/Bgsf"><img src="/img/feed-icon-28x28.png"/></a> <a href="http://feeds.feedburner.com/daeq/Bgsf">Новые статьи</a></a>
         </div>
     </div>
   </div>
