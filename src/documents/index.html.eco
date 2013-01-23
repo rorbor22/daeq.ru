@@ -54,16 +54,6 @@ dynamic: true
             <a href="http://feeds.feedburner.com/daeq/Bgsf"><img src="/img/feed-icon-28x28.png"/></a> <a href="http://feeds.feedburner.com/daeq/Bgsf">Новые статьи</a></a>
         </div>
     </div>
-    <h3>Последние статьи</h3>
-    <p>
-        <ul class="unstyled">
-        <% for document in @getCollection('articles').models[0..5]: %>            
-            <%date = document.get("date")%>
-            <li><span class="label"><%="#{date.getDate()}.#{date.getMonth()+1}.#{date.getFullYear()}"%></span>
-            <a href="<%= document.get("url") %>"><%= document.get("title") %></a></li>
-        <% end %>
-        </ul>
-    </p>
   </div>
 </div>
 </div>
