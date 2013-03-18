@@ -20,6 +20,18 @@ title: 'Мои занятия'
             <h2>Что я делаю</h2>
 
             <!-- OnViDb -->
+            <h4>GuideStock <span class="badge">с марта 2013</span></h4>
+            <p><a href="http://onvidb.com">http://guidestock.com</a></p>
+            <dl>
+              <dt>Что это:</dt>
+              <dd>пока нельзя говорить, но можете присмотреться к логотипу</dd>
+              <dt>Моя роль:</dt>
+              <dd>превращаю идеи в реальность</dd>
+            </dl>
+            <!-- /OnViDb -->
+            <hr/>
+
+            <!-- OnViDb -->
             <h4>OnViDb <span class="badge">с января 2012</span></h4>
             <p><a href="http://onvidb.com">http://onvidb.com</a></p>
             <dl>
