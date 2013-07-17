@@ -10,9 +10,9 @@ dynamic: true
             <img style="width: 300px" src="/img/me.jpg" />
         </div>
         <br class="clearfix" />
-        
+
         <br class="clearfix" />
-        
+
         <div class="contact">
             <p>bratchenko@gmail.com <i class="icon-envelope"></i></p>
             <p>llyeli@skype <i class="icon-skype"></i></p>
@@ -21,7 +21,7 @@ dynamic: true
             <p>Живу в Киеве <i class="icon-home"></i></p>
         </div><!--/contact -->
         <br class="clearfix" />
-                
+
     </div>
 </div>
 
@@ -37,8 +37,7 @@ dynamic: true
     <p>Мне приходилось выполнять почти все роли в этом процессе: от формирования концепции продукта и поиска команды до настройки серверов. Я лучше разбираюсь в технической стороне дела, хуже — в том, что часто называют маркетингом.</p>
 
     <p>
-        Я сделал <a href="http://kinobaza.tv"><img src="http://www.google.com/s2/favicons?domain=kinobaza.tv"></a> <a href="http://kinobaza.tv">Кинобазу</a>, а сейчас делаю <a href="http://guidestock.com"><img src="/img/favicons/guidestock.png"></a> <a href="http://guidestock.com">GuideStock</a>.<br/>
-        Больше о том, чем я занимался и занимаюсь, можно почитать <a href="/works">здесь</a>.
+        О том, чем я занимался и занимаюсь, можно почитать <a href="/works">здесь</a>.
     </p>
 
     <p></p>

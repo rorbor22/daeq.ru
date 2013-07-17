@@ -18,19 +18,7 @@ title: 'Мои занятия'
         </ul>
         <section id="current">
             <h2>Что я делаю</h2>
-
-            <h4>GuideStock <span class="badge">с марта 2013</span></h4>
-            <p><a href="http://guidestock.com">http://guidestock.com</a></p>
-            <dl>
-              <dt>Что это:</dt>
-              <dd>сервис, который будет говорить туристам, что посмотреть там, где они находятся</dd>
-              <dt>Моя роль:</dt>
-              <dd>отвечаю за техническую часть проекта. CTO, если хотите</dd>
-            </dl>
-            <hr/>
-
             <!-- OnViDb -->
-            <h4>OnViDb <span class="badge">с января 2012</span></h4>
             <p><a href="http://onvidb.com">http://onvidb.com</a></p>
             <dl>
               <dt>Что это:</dt>
@@ -47,6 +35,25 @@ title: 'Мои занятия'
         <section id="past">
             <h2>Что я делал</h2>
 
+            <a href="http://guidestock.com" class="thumbnail pull-right">
+              <img src="/img/works/guidestock.png" alt="Guidestock logo">
+            </a>
+            <h4>GuideStock <span class="badge">март 2013 – июль 2013</span></h4>
+            <p><a href="http://guidestock.com">http://guidestock.com</a></p>
+            <dl>
+              <dt>Что это:</dt>
+              <dd>сервис, который говорит туристам, что посмотреть там, где они находятся, и рассказывает им об интересных местах в формате аудиогида</dd>
+              <dt>Моя роль:</dt>
+              <dd>Отвечал за техническую часть проекта. CTO, если хотите</dd>
+              <dt>Что удалось сделать:</dt>
+              <dd>Собрал команду отличных разработчиков (6 человек. Javascript, iOS).</dd>
+              <dd>Разработали и запустили 3 версии веб-сервиса (прототипы, которые тестировались на пользователях и переделывались).</dd>
+              <dd>Разработали бету мобильного приложения.</dd>
+            </dl>
+            <p>
+               Всё шло хорошо, но владелец проекта решил, что на доведение его до окупаемости понадобится слишком много инвестиций, и заморозил проект.
+            </p>
+            <hr/>
             <!-- TVPORT -->
             <a href="http://tvport.me" class="thumbnail pull-right">
               <img src="/img/works/tvport.png" alt="TvPort logo">
